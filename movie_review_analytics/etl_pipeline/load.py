@@ -1,8 +1,8 @@
 import boto3
 import os
 
-AWS_KEY_ID='AKIAVCI2VIMCOV4GR4FV'  
-AWS_SECRET='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'
+AWS_KEY_ID='###'  
+AWS_SECRET='###'
 # instantiate an s3 object using boto3
 s3 = boto3.client('s3', region_name = 'us-east-1',\
                   aws_access_key_id = AWS_KEY_ID, aws_secret_access_key = AWS_SECRET)
