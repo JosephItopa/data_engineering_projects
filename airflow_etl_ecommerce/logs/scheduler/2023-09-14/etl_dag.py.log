@@ -1,0 +1,162 @@
+[2023-09-14T17:41:55.003+0100] {processor.py:157} INFO - Started process (PID=33964) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:41:55.005+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T17:41:55.006+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:41:55.005+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:41:55.565+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:41:55.696+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:41:55.695+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_of_ecommerce_pipeline' as access control is unset.
+[2023-09-14T17:41:55.697+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:41:55.696+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:41:55.719+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:41:55.719+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:41:55.755+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.757 seconds
+[2023-09-14T17:42:23.899+0100] {processor.py:157} INFO - Started process (PID=34085) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:42:23.900+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T17:42:23.902+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:42:23.901+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:42:24.578+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:42:24.588+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:42:24.588+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:42:24.624+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:42:24.624+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:42:24.674+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.779 seconds
+[2023-09-14T17:43:06.845+0100] {processor.py:157} INFO - Started process (PID=34279) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:43:06.846+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T17:43:06.847+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:43:06.847+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:43:07.431+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:43:07.451+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:43:07.451+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:43:07.476+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:43:07.475+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:43:07.501+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.659 seconds
+[2023-09-14T17:43:44.377+0100] {processor.py:157} INFO - Started process (PID=34467) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:43:44.378+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T17:43:44.379+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:43:44.379+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:43:44.917+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:43:44.931+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:43:44.930+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:43:44.948+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:43:44.948+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:43:44.972+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.598 seconds
+[2023-09-14T17:44:25.597+0100] {processor.py:157} INFO - Started process (PID=34684) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:44:25.599+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T17:44:25.600+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:44:25.599+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:44:26.122+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:44:26.146+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:44:26.145+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:44:26.175+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:44:26.175+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:44:26.208+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.614 seconds
+[2023-09-14T17:45:06.762+0100] {processor.py:157} INFO - Started process (PID=34863) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:45:06.763+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T17:45:06.764+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:45:06.764+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:45:07.354+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:45:07.370+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:45:07.370+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:45:07.392+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:45:07.391+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:45:07.416+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.658 seconds
+[2023-09-14T17:45:47.558+0100] {processor.py:157} INFO - Started process (PID=35020) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:45:47.562+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T17:45:47.563+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:45:47.562+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:45:48.516+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:45:48.541+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:45:48.540+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:45:48.576+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:45:48.576+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:45:48.618+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 1.077 seconds
+[2023-09-14T17:46:07.187+0100] {processor.py:157} INFO - Started process (PID=35127) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:46:07.189+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T17:46:07.190+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:46:07.189+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:46:07.919+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:46:07.948+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:46:07.948+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:46:07.976+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:46:07.976+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:46:08.012+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.830 seconds
+[2023-09-14T17:46:50.629+0100] {processor.py:157} INFO - Started process (PID=35294) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:46:50.630+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T17:46:50.631+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:46:50.631+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:46:51.474+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:46:51.496+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:46:51.496+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:46:51.526+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:46:51.526+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:46:51.561+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.936 seconds
+[2023-09-14T17:47:15.719+0100] {processor.py:157} INFO - Started process (PID=35409) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:47:15.721+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T17:47:15.722+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:47:15.721+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:47:17.035+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:47:17.067+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:47:17.066+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:47:17.106+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:47:17.105+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:47:17.190+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 1.475 seconds
+[2023-09-14T17:48:13.040+0100] {processor.py:157} INFO - Started process (PID=35634) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:48:13.042+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T17:48:13.044+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:48:13.043+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:48:13.871+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:48:13.913+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:48:13.912+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:48:13.969+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:48:13.969+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:48:14.015+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.979 seconds
+[2023-09-14T17:48:26.440+0100] {processor.py:157} INFO - Started process (PID=35670) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:48:26.441+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T17:48:26.442+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:48:26.442+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:48:26.831+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:48:26.850+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:48:26.850+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:48:26.868+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:48:26.868+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:48:27.049+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.611 seconds
+[2023-09-14T17:49:16.604+0100] {processor.py:157} INFO - Started process (PID=35882) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:49:16.606+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T17:49:16.607+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:49:16.606+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:49:17.353+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:49:17.374+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:49:17.373+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:49:17.401+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:49:17.401+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:49:17.430+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.830 seconds
+[2023-09-14T17:49:57.344+0100] {processor.py:157} INFO - Started process (PID=36037) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:49:57.345+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T17:49:57.346+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:49:57.346+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:49:58.311+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:49:58.388+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:49:58.387+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:49:58.506+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:49:58.506+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:49:58.552+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 1.213 seconds
+[2023-09-14T17:50:38.783+0100] {processor.py:157} INFO - Started process (PID=36247) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:50:38.784+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T17:50:38.785+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:50:38.785+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:50:39.413+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:50:39.434+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:50:39.433+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:50:39.471+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:50:39.471+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:50:39.617+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.837 seconds
+[2023-09-14T17:51:18.354+0100] {processor.py:157} INFO - Started process (PID=36432) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:51:18.355+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T17:51:18.356+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:51:18.355+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:51:18.932+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:51:18.945+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:51:18.945+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:51:18.970+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:51:18.969+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:51:18.994+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.644 seconds
+[2023-09-14T17:51:55.181+0100] {processor.py:157} INFO - Started process (PID=36578) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:51:55.182+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T17:51:55.182+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:51:55.182+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:51:55.940+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:51:55.974+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:51:55.973+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:51:56.008+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:51:56.008+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:51:56.047+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.869 seconds
+[2023-09-14T17:52:34.004+0100] {processor.py:157} INFO - Started process (PID=36765) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:52:34.005+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T17:52:34.006+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:52:34.006+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:52:34.550+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:52:34.565+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:52:34.564+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:52:34.590+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:52:34.590+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:52:34.620+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.619 seconds
+[2023-09-14T17:53:12.297+0100] {processor.py:157} INFO - Started process (PID=36941) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:53:12.299+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T17:53:12.300+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:53:12.299+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:53:13.021+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:53:13.040+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:53:13.039+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:53:13.068+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:53:13.068+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:53:13.098+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.804 seconds
+[2023-09-14T17:56:00.001+0100] {processor.py:157} INFO - Started process (PID=37939) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:56:00.002+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T17:56:00.003+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:56:00.002+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:56:00.513+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T17:56:00.526+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:56:00.526+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:56:00.545+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:56:00.545+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-16T00:00:00+00:00, run_after=2022-03-17T00:00:00+00:00
+[2023-09-14T17:56:00.573+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.575 seconds
+[2023-09-14T18:02:47.684+0100] {processor.py:157} INFO - Started process (PID=38590) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T18:02:47.685+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T18:02:47.686+0100] {logging_mixin.py:151} INFO - [2023-09-14T18:02:47.686+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T18:02:48.080+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T18:02:48.096+0100] {logging_mixin.py:151} INFO - [2023-09-14T18:02:48.096+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T18:02:48.112+0100] {logging_mixin.py:151} INFO - [2023-09-14T18:02:48.112+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-19T00:00:00+00:00, run_after=2022-03-20T00:00:00+00:00
+[2023-09-14T18:02:48.222+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.540 seconds
+[2023-09-14T18:03:40.754+0100] {processor.py:157} INFO - Started process (PID=38870) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T18:03:40.755+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T18:03:40.756+0100] {logging_mixin.py:151} INFO - [2023-09-14T18:03:40.755+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T18:03:41.295+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T18:03:41.307+0100] {logging_mixin.py:151} INFO - [2023-09-14T18:03:41.306+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T18:03:41.325+0100] {logging_mixin.py:151} INFO - [2023-09-14T18:03:41.325+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-19T00:00:00+00:00, run_after=2022-03-20T00:00:00+00:00
+[2023-09-14T18:03:41.347+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.596 seconds
+[2023-09-14T18:04:24.046+0100] {processor.py:157} INFO - Started process (PID=39053) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T18:04:24.047+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-14T18:04:24.048+0100] {logging_mixin.py:151} INFO - [2023-09-14T18:04:24.047+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T18:04:24.725+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-14T18:04:24.737+0100] {logging_mixin.py:151} INFO - [2023-09-14T18:04:24.737+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T18:04:24.755+0100] {logging_mixin.py:151} INFO - [2023-09-14T18:04:24.755+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-19T00:00:00+00:00, run_after=2022-03-20T00:00:00+00:00
+[2023-09-14T18:04:24.777+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.734 seconds

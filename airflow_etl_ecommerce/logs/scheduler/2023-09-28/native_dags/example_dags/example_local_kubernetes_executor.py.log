@@ -1,0 +1,22 @@
+[2023-09-28T04:30:31.656+0100] {processor.py:157} INFO - Started process (PID=14749) to work on /home/joestar/Documents/projects/etl_clickhouse/etl_clickhouse_airflow/clickhouse_venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-09-28T04:30:31.657+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/etl_clickhouse/etl_clickhouse_airflow/clickhouse_venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-09-28T04:30:31.658+0100] {logging_mixin.py:151} INFO - [2023-09-28T04:30:31.657+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/etl_clickhouse/etl_clickhouse_airflow/clickhouse_venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-09-28T04:30:31.662+0100] {logging_mixin.py:151} INFO - [2023-09-28T04:30:31.661+0100] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/etl_clickhouse/etl_clickhouse_airflow/clickhouse_venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-09-28T04:30:31.662+0100] {logging_mixin.py:151} INFO - [2023-09-28T04:30:31.662+0100] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-09-28T04:30:31.663+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/etl_clickhouse/etl_clickhouse_airflow/clickhouse_venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-09-28T04:30:31.672+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/etl_clickhouse/etl_clickhouse_airflow/clickhouse_venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2023-09-28T04:31:22.109+0100] {processor.py:157} INFO - Started process (PID=15132) to work on /home/joestar/Documents/projects/etl_clickhouse/etl_clickhouse_airflow/clickhouse_venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-09-28T04:31:22.111+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/etl_clickhouse/etl_clickhouse_airflow/clickhouse_venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-09-28T04:31:22.113+0100] {logging_mixin.py:151} INFO - [2023-09-28T04:31:22.112+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/etl_clickhouse/etl_clickhouse_airflow/clickhouse_venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-09-28T04:31:22.119+0100] {logging_mixin.py:151} INFO - [2023-09-28T04:31:22.118+0100] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/etl_clickhouse/etl_clickhouse_airflow/clickhouse_venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-09-28T04:31:22.120+0100] {logging_mixin.py:151} INFO - [2023-09-28T04:31:22.119+0100] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-09-28T04:31:22.120+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/etl_clickhouse/etl_clickhouse_airflow/clickhouse_venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-09-28T04:31:22.135+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/etl_clickhouse/etl_clickhouse_airflow/clickhouse_venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.032 seconds

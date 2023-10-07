@@ -1,0 +1,28 @@
+[2023-09-28T04:30:54.960+0100] {processor.py:157} INFO - Started process (PID=14911) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-28T04:30:54.961+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-28T04:30:54.962+0100] {logging_mixin.py:151} INFO - [2023-09-28T04:30:54.961+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-28T04:30:54.965+0100] {logging_mixin.py:151} INFO - [2023-09-28T04:30:54.964+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/etl_clickhouse/etl_clickhouse_airflow/clickhouse_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py", line 6, in <module>
+    from mysql.connector import Connect
+ModuleNotFoundError: No module named 'mysql'
+[2023-09-28T04:30:54.966+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-28T04:30:54.986+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.029 seconds
+[2023-09-28T04:31:54.365+0100] {processor.py:157} INFO - Started process (PID=15228) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-28T04:31:54.366+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py for tasks to queue
+[2023-09-28T04:31:54.367+0100] {logging_mixin.py:151} INFO - [2023-09-28T04:31:54.366+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-28T04:31:54.371+0100] {logging_mixin.py:151} INFO - [2023-09-28T04:31:54.370+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/etl_clickhouse/etl_clickhouse_airflow/clickhouse_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py", line 6, in <module>
+    from mysql.connector import Connect
+ModuleNotFoundError: No module named 'mysql'
+[2023-09-28T04:31:54.371+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py
+[2023-09-28T04:31:54.394+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_dag.py took 0.033 seconds

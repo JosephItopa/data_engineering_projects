@@ -1,0 +1,418 @@
+[2023-09-14T17:21:54.215+0100] {processor.py:157} INFO - Started process (PID=27928) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:21:54.216+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:21:54.216+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:21:54.216+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:21:54.295+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:21:54.294+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:21:54.296+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:21:54.323+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.110 seconds
+[2023-09-14T17:22:34.624+0100] {processor.py:157} INFO - Started process (PID=28101) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:22:34.625+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:22:34.626+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:22:34.625+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:22:34.692+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:22:34.691+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:22:34.692+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:22:34.733+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.113 seconds
+[2023-09-14T17:23:11.493+0100] {processor.py:157} INFO - Started process (PID=28276) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:23:11.494+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:23:11.495+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:23:11.495+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:23:11.594+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:23:11.593+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:23:11.594+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:23:11.615+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.126 seconds
+[2023-09-14T17:23:47.838+0100] {processor.py:157} INFO - Started process (PID=28427) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:23:47.839+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:23:47.841+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:23:47.840+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:23:47.916+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:23:47.915+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:23:47.916+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:23:47.937+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.104 seconds
+[2023-09-14T17:24:28.228+0100] {processor.py:157} INFO - Started process (PID=28612) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:24:28.229+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:24:28.230+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:24:28.230+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:24:28.329+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:24:28.328+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:24:28.329+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:24:28.354+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.129 seconds
+[2023-09-14T17:25:07.318+0100] {processor.py:157} INFO - Started process (PID=28772) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:25:07.319+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:25:07.320+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:25:07.320+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:25:07.432+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:25:07.431+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:25:07.432+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:25:07.457+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.143 seconds
+[2023-09-14T17:25:44.864+0100] {processor.py:157} INFO - Started process (PID=28916) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:25:44.865+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:25:44.866+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:25:44.865+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:25:44.978+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:25:44.977+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:25:44.979+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:25:45.003+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.143 seconds
+[2023-09-14T17:26:19.513+0100] {processor.py:157} INFO - Started process (PID=29083) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:26:19.514+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:26:19.515+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:26:19.515+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:26:19.622+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:26:19.620+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:26:19.622+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:26:19.647+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.138 seconds
+[2023-09-14T17:26:54.502+0100] {processor.py:157} INFO - Started process (PID=29231) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:26:54.504+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:26:54.505+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:26:54.504+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:26:54.588+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:26:54.587+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:26:54.589+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:26:54.612+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.113 seconds
+[2023-09-14T17:27:30.876+0100] {processor.py:157} INFO - Started process (PID=29394) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:27:30.877+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:27:30.878+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:27:30.877+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:27:30.972+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:27:30.971+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:27:30.972+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:27:31.000+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.127 seconds
+[2023-09-14T17:28:08.218+0100] {processor.py:157} INFO - Started process (PID=29569) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:28:08.219+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:28:08.220+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:28:08.220+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:28:08.327+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:28:08.326+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:28:08.327+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:28:08.355+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.140 seconds
+[2023-09-14T17:28:42.786+0100] {processor.py:157} INFO - Started process (PID=29713) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:28:42.787+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:28:42.788+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:28:42.787+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:28:42.892+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:28:42.891+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:28:42.893+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:28:42.922+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.140 seconds
+[2023-09-14T17:29:17.637+0100] {processor.py:157} INFO - Started process (PID=29898) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:29:17.638+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:29:17.639+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:29:17.638+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:29:17.707+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:29:17.707+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:29:17.708+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:29:17.730+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.097 seconds
+[2023-09-14T17:29:52.040+0100] {processor.py:157} INFO - Started process (PID=30047) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:29:52.041+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:29:52.042+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:29:52.042+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:29:52.123+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:29:52.122+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:29:52.123+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:29:52.148+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.111 seconds
+[2023-09-14T17:30:27.065+0100] {processor.py:157} INFO - Started process (PID=30218) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:30:27.069+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:30:27.070+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:30:27.070+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:30:27.195+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:30:27.194+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:30:27.195+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:30:27.215+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.155 seconds
+[2023-09-14T17:31:02.767+0100] {processor.py:157} INFO - Started process (PID=30385) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:31:02.768+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:31:02.768+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:31:02.768+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:31:02.872+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:31:02.871+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:31:02.872+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:31:02.895+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.131 seconds
+[2023-09-14T17:31:35.187+0100] {processor.py:157} INFO - Started process (PID=30525) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:31:35.189+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:31:35.190+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:31:35.189+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:31:35.263+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:31:35.262+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:31:35.263+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:31:35.284+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.101 seconds
+[2023-09-14T17:32:08.674+0100] {processor.py:157} INFO - Started process (PID=30685) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:32:08.675+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:32:08.676+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:32:08.676+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:32:08.785+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:32:08.783+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:32:08.785+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:32:08.809+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.138 seconds
+[2023-09-14T17:32:44.215+0100] {processor.py:157} INFO - Started process (PID=30829) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:32:44.217+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:32:44.218+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:32:44.217+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:32:44.322+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:32:44.322+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:32:44.323+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:32:44.347+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.135 seconds
+[2023-09-14T17:33:18.590+0100] {processor.py:157} INFO - Started process (PID=30995) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:33:18.591+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:33:18.592+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:33:18.591+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:33:18.692+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:33:18.690+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:33:18.692+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:33:18.715+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.129 seconds
+[2023-09-14T17:33:54.971+0100] {processor.py:157} INFO - Started process (PID=31144) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:33:54.974+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:33:54.977+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:33:54.976+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:33:55.109+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:33:55.108+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:33:55.110+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:33:55.131+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.170 seconds
+[2023-09-14T17:34:31.205+0100] {processor.py:157} INFO - Started process (PID=31320) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:34:31.207+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:34:31.208+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:34:31.207+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:34:31.324+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:34:31.322+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:34:31.324+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:34:31.351+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.150 seconds
+[2023-09-14T17:35:05.599+0100] {processor.py:157} INFO - Started process (PID=31484) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:35:05.600+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:35:05.601+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:35:05.600+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:35:05.676+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:35:05.675+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:35:05.677+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:35:05.697+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.101 seconds
+[2023-09-14T17:35:38.236+0100] {processor.py:157} INFO - Started process (PID=31637) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:35:38.237+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:35:38.238+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:35:38.238+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:35:38.356+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:35:38.355+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:35:38.356+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:35:38.388+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.157 seconds
+[2023-09-14T17:36:13.099+0100] {processor.py:157} INFO - Started process (PID=31803) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:36:13.100+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:36:13.100+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:36:13.100+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:36:13.166+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:36:13.165+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:36:13.166+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:36:13.186+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.089 seconds
+[2023-09-14T17:36:48.162+0100] {processor.py:157} INFO - Started process (PID=31950) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:36:48.164+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:36:48.165+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:36:48.164+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:36:48.263+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:36:48.262+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:36:48.264+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:36:48.287+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.128 seconds
+[2023-09-14T17:37:23.709+0100] {processor.py:157} INFO - Started process (PID=32121) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:37:23.710+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:37:23.711+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:37:23.711+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:37:23.814+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:37:23.813+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:37:23.815+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:37:23.848+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.141 seconds
+[2023-09-14T17:38:01.984+0100] {processor.py:157} INFO - Started process (PID=32420) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:38:01.988+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:38:01.989+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:38:01.989+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:38:02.078+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:38:02.076+0100] {dagbag.py:347} ERROR - Failed to import: /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+Traceback (most recent call last):
+  File "/home/joestar/Documents/projects/airflow_etl/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-09-14T17:38:02.078+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:38:02.100+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.119 seconds
+[2023-09-14T17:38:41.197+0100] {processor.py:157} INFO - Started process (PID=32742) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:38:41.200+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:38:41.201+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:38:41.200+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:38:42.224+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:38:42.426+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:38:42.425+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-14T17:38:42.470+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:38:42.470+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-14T17:38:42.493+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:38:42.493+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-14T17:38:42.494+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:38:42.494+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_of_ecommerce_pipeline' as access control is unset.
+[2023-09-14T17:38:42.495+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:38:42.495+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:38:42.511+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:38:42.511+0100] {dag.py:2937} INFO - Creating ORM DAG for example_of_ecommerce_pipeline
+[2023-09-14T17:38:42.525+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:38:42.525+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:38:42.572+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 1.388 seconds
+[2023-09-14T17:39:04.482+0100] {processor.py:157} INFO - Started process (PID=32862) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:39:04.483+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:39:04.484+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:39:04.483+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:39:05.114+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:39:05.125+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:39:05.124+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:39:05.158+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:39:05.158+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:39:05.218+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.739 seconds
+[2023-09-14T17:39:50.557+0100] {processor.py:157} INFO - Started process (PID=33159) to work on /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:39:50.558+0100] {processor.py:829} INFO - Processing file /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py for tasks to queue
+[2023-09-14T17:39:50.560+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:39:50.559+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:39:51.075+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_of_ecommerce_pipeline']) retrieved from /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py
+[2023-09-14T17:39:51.098+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:39:51.097+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-14T17:39:51.134+0100] {logging_mixin.py:151} INFO - [2023-09-14T17:39:51.134+0100] {dag.py:3696} INFO - Setting next_dagrun for example_of_ecommerce_pipeline to 2022-03-05T00:00:00+00:00, run_after=2022-03-06T00:00:00+00:00
+[2023-09-14T17:39:51.188+0100] {processor.py:179} INFO - Processing /home/joestar/Documents/projects/airflow_etl/dags/etl_pipeline.py took 0.634 seconds
