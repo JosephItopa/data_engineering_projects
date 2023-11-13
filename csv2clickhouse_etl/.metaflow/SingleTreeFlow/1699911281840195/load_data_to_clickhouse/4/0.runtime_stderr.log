@@ -1,0 +1,99 @@
+[MFLOG|0|2023-11-13T21:35:57.576645Z|runtime|0afdb183-9a48-49c0-b526-f8fd8bbe1c26]Unexpected Http Driver Exception
+[MFLOG|0|2023-11-13T21:35:57.583743Z|runtime|1cb5f151-5e82-44a9-a04c-5a9fc300ae4d]<flow SingleTreeFlow step load_data_to_clickhouse> failed:
+[MFLOG|0|2023-11-13T21:35:57.590499Z|runtime|7844b3ee-278a-4710-a501-48dbf92436ed]    Internal error
+[MFLOG|0|2023-11-13T21:35:57.592812Z|runtime|4da004bb-18ec-4e12-bc07-898080cc8061]Traceback (most recent call last):
+[MFLOG|0|2023-11-13T21:35:57.593364Z|runtime|6822d1bd-4eb8-4156-bc85-5c176470a10a]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/urllib3/connection.py", line 203, in _new_conn
+[MFLOG|0|2023-11-13T21:35:57.593711Z|runtime|30a6ec31-1e20-45ce-ae0e-8b7fbc4594a5]    sock = connection.create_connection(
+[MFLOG|0|2023-11-13T21:35:57.593895Z|runtime|acc60e8b-5f4a-4af9-95e3-afff864fe90d]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/urllib3/util/connection.py", line 85, in create_connection
+[MFLOG|0|2023-11-13T21:35:57.594085Z|runtime|6e179603-6c79-486d-9c8b-6aa6ee33260e]    raise err
+[MFLOG|0|2023-11-13T21:35:57.594238Z|runtime|b2b1f927-9ad3-49a8-a1f1-0cd9e73d7660]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/urllib3/util/connection.py", line 73, in create_connection
+[MFLOG|0|2023-11-13T21:35:57.594376Z|runtime|35c26cbe-c9ca-4fc8-a858-583d333457d5]    sock.connect(sa)
+[MFLOG|0|2023-11-13T21:35:57.594512Z|runtime|8facf1e9-0da0-4ebb-8983-4f02bd4e4d13]socket.timeout: timed out
+[MFLOG|0|2023-11-13T21:35:57.594646Z|runtime|66d46d6f-306e-41dc-bdb8-3c3cadb1c732]
+[MFLOG|0|2023-11-13T21:35:57.594774Z|runtime|ca999d0d-cc4f-4e01-bed1-548697e8fe49]The above exception was the direct cause of the following exception:
+[MFLOG|0|2023-11-13T21:35:57.594905Z|runtime|145f32fa-faac-4f1a-a357-f263fed9fe75]
+[MFLOG|0|2023-11-13T21:35:57.595048Z|runtime|4f69e332-92bb-4ed7-86e2-62e39d9c8540]Traceback (most recent call last):
+[MFLOG|0|2023-11-13T21:35:57.595221Z|runtime|e2ce071e-f031-4e49-88b0-313afd48c9c7]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+[MFLOG|0|2023-11-13T21:35:57.595396Z|runtime|6f407fb7-eb87-4aa4-93c8-37429306d56b]    response = self._make_request(
+[MFLOG|0|2023-11-13T21:35:57.595563Z|runtime|9644d268-be0b-4949-a9cf-224d22766fa7]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/urllib3/connectionpool.py", line 496, in _make_request
+[MFLOG|0|2023-11-13T21:35:57.595736Z|runtime|a392d880-0d47-4e57-ab47-c1d505205d22]    conn.request(
+[MFLOG|0|2023-11-13T21:35:57.595915Z|runtime|36ee9e83-6b28-40f5-a397-22f6a6afac11]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/urllib3/connection.py", line 395, in request
+[MFLOG|0|2023-11-13T21:35:57.596100Z|runtime|48641f7a-af67-4f35-9635-c710db2ceea9]    self.endheaders()
+[MFLOG|0|2023-11-13T21:35:57.596279Z|runtime|3126de8b-9e1f-482d-b7b7-59a4b8cb3b06]  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+[MFLOG|0|2023-11-13T21:35:57.596470Z|runtime|4c87df51-feaa-415f-bc77-c12b6b628ede]    self._send_output(message_body, encode_chunked=encode_chunked)
+[MFLOG|0|2023-11-13T21:35:57.596634Z|runtime|607ce0cb-d8a4-4b31-b3a8-2173d1529fd3]  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+[MFLOG|0|2023-11-13T21:35:57.596794Z|runtime|2e65833e-2fdd-4f41-920a-c5f8d196e40e]    self.send(msg)
+[MFLOG|0|2023-11-13T21:35:57.596952Z|runtime|ac84e916-2ff5-4ca8-adef-9d27f15ae980]  File "/usr/lib/python3.8/http/client.py", line 951, in send
+[MFLOG|0|2023-11-13T21:35:57.597104Z|runtime|b6a19887-33d4-4a14-ac56-2dc8a41e8847]    self.connect()
+[MFLOG|0|2023-11-13T21:35:57.597268Z|runtime|b74c4356-ed64-4129-9424-798176c3f194]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/urllib3/connection.py", line 243, in connect
+[MFLOG|0|2023-11-13T21:35:57.597406Z|runtime|eb28c752-4fcb-430a-bce0-a62807ff9ebd]    self.sock = self._new_conn()
+[MFLOG|0|2023-11-13T21:35:57.597562Z|runtime|1d3e2bd1-fe60-4e2a-a133-dd7d9443425f]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/urllib3/connection.py", line 212, in _new_conn
+[MFLOG|0|2023-11-13T21:35:57.597710Z|runtime|bd04baad-218d-42e3-90ab-f070bffa2140]    raise ConnectTimeoutError(
+[MFLOG|0|2023-11-13T21:35:57.597873Z|runtime|380c906c-5507-4d89-aa31-bcd216f3d2a5]urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f3e689ba970>, 'Connection to fx104e78gz.us-east-1.aws.clickhouse.cloud timed out. (connect timeout=10)')
+[MFLOG|0|2023-11-13T21:35:57.598246Z|runtime|919387ee-8e73-48e9-94f3-3549828a979e]
+[MFLOG|0|2023-11-13T21:35:57.598382Z|runtime|aeb88a4b-2be7-4e51-9d1b-560b9481585a]The above exception was the direct cause of the following exception:
+[MFLOG|0|2023-11-13T21:35:57.598511Z|runtime|0a96426f-332e-4af4-a6a5-343cf975429d]
+[MFLOG|0|2023-11-13T21:35:57.598637Z|runtime|60b5c321-1ae2-4c79-819e-8bae7cb3ddbd]Traceback (most recent call last):
+[MFLOG|0|2023-11-13T21:35:57.598765Z|runtime|d5d0e9b9-9a37-40bd-b6d4-da35c3de62e7]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/clickhouse_connect/driver/httpclient.py", line 409, in _raw_request
+[MFLOG|0|2023-11-13T21:35:57.598914Z|runtime|13d38801-a3c3-4a6e-bb37-ef55ff093d88]    response = self.http.request(method, url, kwargs)
+[MFLOG|0|2023-11-13T21:35:57.599044Z|runtime|b4074bc5-7123-491a-9e61-7f315f2b9ab8]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/urllib3/_request_methods.py", line 118, in request
+[MFLOG|0|2023-11-13T21:35:57.599173Z|runtime|bffe7866-8bb9-4bae-b418-37e69c48a6e7]    return self.request_encode_body(
+[MFLOG|0|2023-11-13T21:35:57.599300Z|runtime|a0fdaeaf-e99c-4016-986e-587cd8048730]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/urllib3/_request_methods.py", line 217, in request_encode_body
+[MFLOG|0|2023-11-13T21:35:57.599431Z|runtime|fd6e1a15-e1e2-4cef-8a86-5becb0547bf1]    return self.urlopen(method, url, extra_kw)
+[MFLOG|0|2023-11-13T21:35:57.599559Z|runtime|1698f691-6580-4820-9241-fa92be47eecd]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/urllib3/poolmanager.py", line 444, in urlopen
+[MFLOG|0|2023-11-13T21:35:57.599747Z|runtime|241dfb9a-195e-4441-bdc3-234c08775873]    response = conn.urlopen(method, u.request_uri, kw)
+[MFLOG|0|2023-11-13T21:35:57.599876Z|runtime|9bc50b86-50e7-4872-9408-04bd2a3c0366]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/urllib3/connectionpool.py", line 874, in urlopen
+[MFLOG|0|2023-11-13T21:35:57.600003Z|runtime|864e3ddd-f97b-4bc0-b1ca-4035dae11313]    return self.urlopen(
+[MFLOG|0|2023-11-13T21:35:57.600132Z|runtime|d1adb2bb-7d56-4937-96fb-d817efb8d238]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+[MFLOG|0|2023-11-13T21:35:57.600272Z|runtime|304a5bff-9de5-4e70-abc3-bbdf566e00b4]    retries = retries.increment(
+[MFLOG|0|2023-11-13T21:35:57.600406Z|runtime|c546fda3-0d75-4a2c-bcbe-d7a753b8d8a4]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/urllib3/util/retry.py", line 515, in increment
+[MFLOG|0|2023-11-13T21:35:57.600530Z|runtime|4d00c84b-4bb2-4cb0-a075-4772b6bdcf83]    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+[MFLOG|0|2023-11-13T21:35:57.600652Z|runtime|ca719282-09cc-4339-81de-e3fffbf8dc63]urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='fx104e78gz.us-east-1.aws.clickhouse.cloud', port=9000): Max retries exceeded with url: /?wait_end_of_query=1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3e689ba970>, 'Connection to fx104e78gz.us-east-1.aws.clickhouse.cloud timed out. (connect timeout=10)'))
+[MFLOG|0|2023-11-13T21:35:57.600785Z|runtime|7788d355-247b-4971-96c1-94daee38721d]
+[MFLOG|0|2023-11-13T21:35:57.600907Z|runtime|ab8b88e5-b9fc-4e37-9cfb-0cbfebca0955]The above exception was the direct cause of the following exception:
+[MFLOG|0|2023-11-13T21:35:57.601029Z|runtime|5b984255-d58f-469c-b762-9804579ee9a3]
+[MFLOG|0|2023-11-13T21:35:57.601150Z|runtime|0820d2e0-56fb-4196-ae8f-becf67d473b4]Traceback (most recent call last):
+[MFLOG|0|2023-11-13T21:35:57.601273Z|runtime|cb00855b-efbd-4636-bbeb-c2ff96278dd9]  File "etl_dag.py", line 70, in load_data_to_clickhouse
+[MFLOG|0|2023-11-13T21:35:57.601396Z|runtime|1e148bb9-03e4-4a29-a0d6-61d2e5e82199]    client = clickhouse_connect.get_client(
+[MFLOG|0|2023-11-13T21:35:57.601518Z|runtime|d1146b1d-45fd-47dd-9f89-871840ce3968]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/clickhouse_connect/driver/__init__.py", line 111, in create_client
+[MFLOG|0|2023-11-13T21:35:57.601644Z|runtime|078464fd-9ee7-4d83-8938-1408f2443c31]    return HttpClient(interface, host, port, username, password, database, settings=settings, kwargs)
+[MFLOG|0|2023-11-13T21:35:57.601813Z|runtime|ae71f38c-1d0d-4e2f-b958-42fa4c6f473b]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/clickhouse_connect/driver/httpclient.py", line 140, in __init__
+[MFLOG|0|2023-11-13T21:35:57.601973Z|runtime|000760f2-d4b5-4ebc-a646-175e890d7f10]    super().__init__(database=database,
+[MFLOG|0|2023-11-13T21:35:57.602135Z|runtime|29c310e6-5bc4-42e5-99eb-0a31b9778c46]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/clickhouse_connect/driver/client.py", line 60, in __init__
+[MFLOG|0|2023-11-13T21:35:57.602289Z|runtime|6a205be9-503d-4858-81bf-e502f5c92df8]    tuple(self.command('SELECT version(), timezone()', use_database=False))
+[MFLOG|0|2023-11-13T21:35:57.602447Z|runtime|2661f0c2-2df3-4bf9-9707-e85f78779fc6]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/clickhouse_connect/driver/httpclient.py", line 331, in command
+[MFLOG|0|2023-11-13T21:35:57.602618Z|runtime|b24c47d8-aead-4b90-9027-6915799a583b]    response = self._raw_request(payload, params, headers, method, fields=fields)
+[MFLOG|0|2023-11-13T21:35:57.602784Z|runtime|c17bfc8b-4364-47a1-befa-0d36a9ed2ef8]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/clickhouse_connect/driver/httpclient.py", line 420, in _raw_request
+[MFLOG|0|2023-11-13T21:35:57.602957Z|runtime|a91172b0-3a76-458d-84d0-e853db1ba82a]    raise OperationalError(f'Error {ex} executing HTTP request attempt {attempts} {self.url}') from ex
+[MFLOG|0|2023-11-13T21:35:57.603142Z|runtime|e12e936d-582c-4372-8bd0-8225ca46f00e]clickhouse_connect.driver.exceptions.OperationalError: Error HTTPConnectionPool(host='fx104e78gz.us-east-1.aws.clickhouse.cloud', port=9000): Max retries exceeded with url: /?wait_end_of_query=1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3e689ba970>, 'Connection to fx104e78gz.us-east-1.aws.clickhouse.cloud timed out. (connect timeout=10)')) executing HTTP request attempt 1 http://fx104e78gz.us-east-1.aws.clickhouse.cloud:9000
+[MFLOG|0|2023-11-13T21:35:57.603339Z|runtime|02c3b22c-ee93-4344-b308-116a48cd0210]
+[MFLOG|0|2023-11-13T21:35:57.603551Z|runtime|c3304682-d6f9-4573-b20b-495819157754]During handling of the above exception, another exception occurred:
+[MFLOG|0|2023-11-13T21:35:57.603791Z|runtime|4c8bfcfc-405e-4e06-a35a-cb8409da0fb5]
+[MFLOG|0|2023-11-13T21:35:57.603997Z|runtime|66b17778-33f2-4f4a-b21d-86619ce60cdb]Traceback (most recent call last):
+[MFLOG|0|2023-11-13T21:35:57.604201Z|runtime|8f87bf98-bc32-4dae-b11b-6b85e47392bb]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/cli.py", line 1175, in main
+[MFLOG|0|2023-11-13T21:35:57.604445Z|runtime|075f7990-b381-456d-9069-b12456f5fcd6]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2023-11-13T21:35:57.604661Z|runtime|a9391546-ead4-4d3d-9e1e-0414d9108a86]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/tracing/__init__.py", line 27, in wrapper_func
+[MFLOG|0|2023-11-13T21:35:57.797150Z|runtime|1f554e54-db4c-48b0-93c6-c86b3c834199]    return func(args, kwargs)
+[MFLOG|0|2023-11-13T21:35:57.797328Z|runtime|69c509b1-56ff-46a2-a4fc-19ee76ca1c60]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2023-11-13T21:35:57.797445Z|runtime|4161cb0d-ca54-44f8-8350-0479dca31231]    return self.main(args, kwargs)
+[MFLOG|0|2023-11-13T21:35:57.797571Z|runtime|f9d0cb60-a54d-4462-b4d0-358bfc37fee9]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2023-11-13T21:35:57.797707Z|runtime|e148b1cb-eb49-44b4-9e24-64a45a0fd794]    rv = self.invoke(ctx)
+[MFLOG|0|2023-11-13T21:35:57.797864Z|runtime|2bc83c67-a18e-4c38-b1ca-a9e2248560a2]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/_vendor/click/core.py", line 1259, in invoke
+[MFLOG|0|2023-11-13T21:35:57.798016Z|runtime|61d68307-6295-4595-8c26-179cfdb32087]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2023-11-13T21:35:57.798161Z|runtime|3c8bf826-a1d2-4158-911c-563a22fb2d73]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2023-11-13T21:35:57.798315Z|runtime|080f8874-89b1-45c3-88c1-107cb1c67df7]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2023-11-13T21:35:57.798416Z|runtime|3b0faae8-91f2-4601-adb3-51fe1dc38e66]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2023-11-13T21:35:57.798543Z|runtime|88831c6b-3999-401c-aad0-b3bd049b7656]    return callback(args, kwargs)
+[MFLOG|0|2023-11-13T21:35:57.798683Z|runtime|68a3587f-a424-4adc-a054-e2ea06f18cb5]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2023-11-13T21:35:57.798840Z|runtime|bd9f56b1-e7f5-492d-a5c7-052243f09f02]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2023-11-13T21:35:57.798991Z|runtime|ae8639a6-2335-4b7c-b6dc-2fe8afafd278]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/cli.py", line 582, in step
+[MFLOG|0|2023-11-13T21:35:57.799143Z|runtime|ad03b11d-107a-4b30-b39f-5f58436fb056]    task.run_step(
+[MFLOG|0|2023-11-13T21:35:57.799283Z|runtime|85266e8c-8795-417e-9172-238a4dd41b20]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/task.py", line 596, in run_step
+[MFLOG|0|2023-11-13T21:35:57.799518Z|runtime|76e6565a-1721-41a7-89b8-2f004d34ac25]    self._exec_step_function(step_func)
+[MFLOG|0|2023-11-13T21:35:57.799661Z|runtime|5455d6da-d7ea-4916-9d41-0397b34e508a]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/task.py", line 57, in _exec_step_function
+[MFLOG|0|2023-11-13T21:35:57.799794Z|runtime|cd62a877-4c5d-45cf-8745-4e6766e5653f]    step_function()
+[MFLOG|0|2023-11-13T21:35:57.799921Z|runtime|bfb4d91c-aaeb-498f-9d20-3881fcf94934]  File "etl_dag.py", line 77, in load_data_to_clickhouse
+[MFLOG|0|2023-11-13T21:35:57.800048Z|runtime|3cd876bc-0559-4df5-90df-1fdf8324198f]    raise Exception("clickhouse connection error")
+[MFLOG|0|2023-11-13T21:35:57.800171Z|runtime|1bad7e0b-49e5-4e1e-af0f-743276b8d11d]Exception: clickhouse connection error
+[MFLOG|0|2023-11-13T21:35:57.800344Z|runtime|d909ae24-28e1-4e4c-9d77-99170d349e3f]
+[MFLOG|0|2023-11-13T21:35:57.800987Z|runtime|59b762ef-0cdf-479f-a1b5-c185487cd787]Task failed.

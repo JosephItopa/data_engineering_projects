@@ -1,0 +1,5 @@
+green_tripdata_2023-01.parquet
+green_tripdata_2023-02.parquet
+yellow_tripdata_2023-01.parquet
+yellow_tripdata_2023-02.parquet
+

@@ -1,0 +1,31 @@
+[MFLOG|0|2023-11-13T21:31:38.370357Z|runtime|4df146a7-7237-4f3c-a3bc-a59218527bdf]<flow SingleTreeFlow step transform_data> failed:
+[MFLOG|0|2023-11-13T21:31:38.376408Z|runtime|cf80d4be-eea8-4a88-8462-15e487ced929]    Internal error
+[MFLOG|0|2023-11-13T21:31:38.377631Z|runtime|acb03587-2460-481b-a91e-281a19ead73b]Traceback (most recent call last):
+[MFLOG|0|2023-11-13T21:31:38.377916Z|runtime|b715807d-f4c2-46e5-9c6a-78281dcaeb40]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/cli.py", line 1175, in main
+[MFLOG|0|2023-11-13T21:31:38.378558Z|runtime|23f65225-9c79-4c1e-a8bb-107114e95bdd]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2023-11-13T21:31:38.379090Z|runtime|7b43f544-dae5-4b46-b70c-3c29722af669]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/tracing/__init__.py", line 27, in wrapper_func
+[MFLOG|0|2023-11-13T21:31:38.379620Z|runtime|3ec76783-1734-4494-9043-e2cdda64ec9f]    return func(args, kwargs)
+[MFLOG|0|2023-11-13T21:31:38.617722Z|runtime|c3f0272b-d4e2-4a27-b748-f48dfbaab8b3]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2023-11-13T21:31:38.617917Z|runtime|fe668def-dec5-48b3-a8a2-cfba5d6823f6]    return self.main(args, kwargs)
+[MFLOG|0|2023-11-13T21:31:38.618006Z|runtime|2f84d0db-6277-4fce-bf5c-0e14c7b30e8e]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2023-11-13T21:31:38.618120Z|runtime|6fe5c6a2-b5f4-4504-b8e6-bab13c425b6e]    rv = self.invoke(ctx)
+[MFLOG|0|2023-11-13T21:31:38.618242Z|runtime|11d6aeb0-5c2f-4d2f-b18c-2cef543df027]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/_vendor/click/core.py", line 1259, in invoke
+[MFLOG|0|2023-11-13T21:31:38.618362Z|runtime|b840ac16-a2f7-40d2-b93d-b246edb969e6]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2023-11-13T21:31:38.618521Z|runtime|ca05a2e4-c90c-48cb-b950-092e275723e0]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2023-11-13T21:31:38.618685Z|runtime|ea6393a9-28e0-4931-b92c-7ba28ef266fa]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2023-11-13T21:31:38.618838Z|runtime|57315033-ed82-45d5-a295-d99f9268cecf]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2023-11-13T21:31:38.619005Z|runtime|a9141847-52ae-44d4-8576-27ac538acfb7]    return callback(args, kwargs)
+[MFLOG|0|2023-11-13T21:31:38.619171Z|runtime|734eb021-50b2-4cf5-821e-50c303daed5c]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2023-11-13T21:31:38.619326Z|runtime|12389917-0c72-4aef-bd08-2c5bd155f4eb]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2023-11-13T21:31:38.619470Z|runtime|763ead62-ceb4-4766-a31a-87d70aeb014f]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/cli.py", line 582, in step
+[MFLOG|0|2023-11-13T21:31:38.619627Z|runtime|54f85d64-d3c6-4cd1-8647-fb5a9f1b65d4]    task.run_step(
+[MFLOG|0|2023-11-13T21:31:38.619755Z|runtime|24acaf65-0f8b-49e9-a8e7-5b3bb387563e]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/task.py", line 596, in run_step
+[MFLOG|0|2023-11-13T21:31:38.619874Z|runtime|235bfba8-d274-435e-8d45-098f3a7106be]    self._exec_step_function(step_func)
+[MFLOG|0|2023-11-13T21:31:38.619998Z|runtime|d4d5349c-f9ea-483b-be24-93fbc9baf624]  File "/home/joestar/Documents/projects/etl_clickhouse/csv2clickhouse_etl/csv2clickhouse/lib/python3.8/site-packages/metaflow/task.py", line 57, in _exec_step_function
+[MFLOG|0|2023-11-13T21:31:38.620120Z|runtime|6c83b307-aa2b-4183-8bc1-93785c3a2206]    step_function()
+[MFLOG|0|2023-11-13T21:31:38.620240Z|runtime|6ace85f1-dbd6-4384-b91b-5014924e006b]  File "etl_dag.py", line 44, in transform_data
+[MFLOG|0|2023-11-13T21:31:38.620367Z|runtime|d948d65b-1f0f-47a8-9de5-70145f850a2f]    all_data = df.drop(["airport_fee", "Airport_fee", "lpep_pickup_datetime", "lpep_dropoff_datetime",\
+[MFLOG|0|2023-11-13T21:31:38.620576Z|runtime|c98f9b60-8953-49ba-bbc1-07de83d4a7d6]  File "pyarrow/table.pxi", line 4680, in pyarrow.lib.Table.drop
+[MFLOG|0|2023-11-13T21:31:38.620709Z|runtime|b23869f3-3bd7-4a02-a251-914293953b23]TypeError: drop() got an unexpected keyword argument 'axis'
+[MFLOG|0|2023-11-13T21:31:38.620830Z|runtime|28a26524-6d3f-4015-972f-90fba72fbc15]
+[MFLOG|0|2023-11-13T21:31:38.621431Z|runtime|f1006378-0232-4d01-84aa-dccf5650859e]Task failed.
