@@ -1,8 +1,0 @@
-{
-    "AWS_KEY_ID":"AKIAVCI2VIMCGKNAXJEX",
-    "AWS_SECRET":"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",
-    "CLICKHOUSE_HOST":"fx104e78gz.us-east-1.aws.clickhouse.cloud",
-    "CLICKHOUSE_SECRET":"X.NxqUQ~dkqu3",
-    "CLICKHOUSE_USER":"default"
-    
-}
